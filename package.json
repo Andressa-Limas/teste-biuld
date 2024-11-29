@@ -1,0 +1,21 @@
+{
+  "name": "teste-biuld",
+  "version": "1.0.0",
+  "description": "Criando um script para rodar os testes junto com o biuld do sistema",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.1"
+  }
+}
