@@ -1,5 +1,5 @@
-const fs = require('fs'); // Para ler arquivos
-const path = require('path'); // Para manipular caminhos de arquivos
+const fs = require('fs'); 
+const path = require('path'); 
 
 describe('Teste de Página HTML', () => {
 

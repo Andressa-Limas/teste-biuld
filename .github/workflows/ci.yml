@@ -3,7 +3,7 @@ name: Test and Build
 on:
   pull_request:
     branches:
-      - main  # Ou o nome da sua branch principal
+      - main  
 
 jobs:
   test:
@@ -15,8 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Versão do Node.js que você está usando
-
+          node-version: '16'  
       - name: Install dependencies
         run: npm install
 
